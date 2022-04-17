@@ -1,13 +1,25 @@
 import java.util.Random;
 
-class UC6 {
+class UC7 {
 
+	public static void main(String args[])
+	{
+		System.out.println("Welcome !");
+		ComputeWage.computeWage();
+	}
+}
+
+/** Solving using class variable and methods **/
+class ComputeWage
+{
+	
 	static int wagePerHr = 20; 
 	static int workingHr = 8;
 	static int dayPerMonth = 20;
-	static int hrPerMonth = 20;
+	static int HrPerMonth = 20;
 	static int totalWorkingHr  = 0 ;
-	public static void main(String args[])
+
+	static void computeWage()
 	{
 		System.out.println("Welcome !");
 
